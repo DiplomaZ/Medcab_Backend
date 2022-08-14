@@ -1,6 +1,10 @@
 const jwt = require("jsonwebtoken");
 const secrets = require("../../secrets/secret");
 module.exports = (req, res, next) => {
+  if (!req.headers.authorization) {
+    res.status(401).json({ message: "No token provided" });
+  }
+
   const [directive, token] = req.headers.authorization.split(" ");
   if (!directive || directive != "bearer") {
     res.status(401).json({
