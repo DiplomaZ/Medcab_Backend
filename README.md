@@ -1,6 +1,6 @@
 # Back-End
 
-MedCab is a cannabis strain recommendation engine that suggests strains based on user preferences and symptoms. The MedCab backend is a RESTful API built with Express, Knex, and PostgreSQL. The API provides endpoints for user authentication, profile management, and strain recommendations.
+MedCab is a cannabis strain recommendation engine that suggests strains based on user's preferred flavor-profiles and effects. The MedCab backend is a RESTful API built with Express, Knex, and PostgreSQL. The API provides endpoints for user authentication, profile management, and strain recommendations.
 
 
 
