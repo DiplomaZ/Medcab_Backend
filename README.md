@@ -1,5 +1,9 @@
 # Back-End
 
+MedCab is a cannabis strain recommendation engine that suggests strains based on user preferences and symptoms. The MedCab backend is a RESTful API built with Flask, SQLAlchemy, and PostgreSQL. The API provides endpoints for user authentication, profile management, and strain recommendations.
+
+
+
 ## Schema
 
 #### Users
